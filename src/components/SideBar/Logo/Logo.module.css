@@ -1,0 +1,32 @@
+.logo {
+  display: flex;
+  margin-bottom: 60px;
+  align-items: center;
+  gap: 8px;
+}
+
+@media only screen and (min-width: 768px) {
+  .logo {
+    margin-bottom: 60px;
+  }
+}
+
+.logoIcon {
+  border-radius: 8px;
+  fill: transparent;
+
+  /* svg {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 100%;
+    height: 100%;
+  } */
+}
+
+.logoTitle {
+  font-weight: 600;
+  font-size: 16px;
+  color: var(--primary-sidebar-text-color);
+}

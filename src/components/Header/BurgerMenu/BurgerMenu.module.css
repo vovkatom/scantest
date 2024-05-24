@@ -1,0 +1,34 @@
+.burgerButton {
+  width: 24px;
+  height: 24px;
+  border: none;
+  background-color: transparent;
+}
+
+@media only screen and (min-width: 768px) {
+  .burgerButton {
+    width: 32px;
+    height: 32px;
+  }
+}
+
+.burgerIcon {
+  stroke: var(--header-primary);
+  stroke-width: 2px;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+
+  transition: stroke 0.25s ease-in-out;
+}
+
+.burgerIcon:hover,
+.burgerIcon:focus {
+  stroke: var(--main-hover);
+}
+
+@media only screen and (min-width: 768px) {
+  .burgerIcon {
+    width: 32px;
+    height: 32px;
+  }
+}

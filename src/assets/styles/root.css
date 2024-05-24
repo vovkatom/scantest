@@ -1,0 +1,164 @@
+:root {
+  /*ScreenPage background images*/
+  --bg-mobile-1x: url('default-mobile-1x.jpg');
+  --bg-mobile-2x: url('default-mobile-2x.jpg');
+  --bg-tablet-1x: url('default-tablet-1x.jpg');
+  --bg-tablet-2x: url('default-tablet-2x.jpg');
+  --bg-desktop-1x: url('default-desktop-1x.jpg');
+  --bg-desktop-2x: url('default-desktop-2x.jpg');
+
+  --primary-color-white: #fff;
+
+  --primary-color-black: #161616; /*main text color, header, registration button*/
+  --secondary-color-black: #151515; /*pop-up & form - dark mode */
+  --color-black-background: #1f1f1f; /*input & board background - dark mode*/
+
+  --secondary-color-grey-dark: rgba(255, 255, 255, 0.5); /*text - dark mode*/
+  --secondary-color-grey-light: rgba(
+    22,
+    22,
+    22,
+    0.7
+  ); /*text - light & violet mode */
+
+  --primary-color-light-green: #bedbb0;
+  --secondary-color-green: #9dc888;
+  --color-light-background: #f6f6f7;
+
+  --primary-color-violet: #5255bc;
+  --secondary-color-light-violet: #7b7ede;
+  --color-violet-background: #ecedfd;
+
+  --font-family: 'Poppins', sans-serif;
+
+  --color1: #8fa1d0; /* Кольори кнопок */
+  --color2: #e09cb5;
+  --color3: #bedbb0;
+  --color4: #1616164d;
+}
+
+.light {
+  --main-background: #f6f6f7;
+  --main-hover: #9dc888;
+  /*icons*/
+  --logo-background: #1f1f1f;
+  --logo-fill: #fff;
+  --logout-stroke: #bedbb0;
+  /*sidebar*/
+  --primary-sidebar-text-color: #161616;
+  --secondary-sidebar-text-color: rgba(22, 22, 22, 0.5);
+  --sidebar-background: #fff;
+  --sidebar-border: rgba(22, 22, 22, 0.1);
+  --create-button: #bedbb0;
+  --plus-fill: #121212;
+  --sidebar-plus-hover: #9dc888;
+  --need-help-background: #f6f6f7;
+  --need-help-span: #bedbb0;
+
+  --sidebar-board-button-hover: #f6f6f766;
+  /*header*/
+  --header-background: #fcfcfc;
+  --header-primary: #161616;
+  --header-secondary: rgba(22, 22, 22, 0.8);
+  /*screen-page*/
+  --board-secondary: rgba(22, 22, 22, 0.7);
+  --board-accent: #bedbb0;
+  /*pop-up & modal*/
+  --popup-primary-background: #fcfcfc;
+  --popup-border: #bedbb0;
+  --popup-item-color: #161616;
+  --popup-accent-color: #bedbb0;
+  --modal-main: #161616;
+  --modal-button-create: #161616;
+  --modal-plus-icon: #fff;
+  --modal-button-hover: #9dc888;
+  /*screen page*/
+  --screen-button-plus-stroke: #fff;
+  --screen-button-plus-background: #161616;
+}
+
+.dark {
+  --main-background: #1f1f1f;
+  --main-hover: #9dc888;
+  /*icons*/
+  --logo-background: #1f1f1f;
+  --logo-fill: #fff;
+  --logout-stroke: #bedbb0;
+  /*sidebar*/
+  --primary-sidebar-text-color: #fff;
+  --secondary-sidebar-text-color: rgba(255, 255, 255, 0.5);
+  --sidebar-background: #121212;
+  --sidebar-border: rgba(255, 255, 255, 0.1);
+  --create-button: #bedbb0;
+  --plus-fill: #121212;
+  --sidebar-plus-hover: #9dc888;
+  --need-help-background: #1f1f1f;
+  --need-help-span: #bedbb0;
+
+  --sidebar-board-button-hover: #f6f6f766;
+  /*header*/
+  --header-background: #161616;
+  --header-primary: #fff;
+  --header-secondary: rgba(255, 255, 255, 0.8);
+  /*screen-page*/
+  --board-secondary: rgba(255, 255, 255, 0.5);
+  --board-accent: #bedbb0;
+  /*pop-up & modal*/
+  --popup-primary-background: #151515;
+  --popup-border: #bedbb0;
+  --popup-item-color: rgba(255, 255, 255, 0.5);
+  --popup-accent-color: #bedbb0;
+  --modal-main: #fff;
+  --modal-button-create: #161616;
+  --modal-plus-icon: #fff;
+  --modal-button-hover: #9dc888;
+  /*screen page*/
+  --screen-button-plus-stroke: #121212;
+  --screen-button-plus-background: #fff;
+}
+
+.violet {
+  --main-background: #ecedfd;
+  --main-hover: #5255bc;
+  /*icons*/
+  --logo-background: #ecedfd;
+  --logo-fill: #5255bc;
+  --logout-stroke: #fff;
+  /*sidebar*/
+  --primary-sidebar-text-color: #fff;
+  --secondary-sidebar-text-color: rgba(255, 255, 255, 0.5);
+  --sidebar-background: #5255bc;
+  --sidebar-border: rgba(255, 255, 255, 0.1);
+  --create-button: #b8bcfd;
+  --plus-fill: #fff;
+  --sidebar-plus-hover: #979cea;
+  --need-help-background: rgba(236, 237, 253, 0.4);
+  --need-help-span: #5255bc;
+
+  --sidebar-board-button-hover: rgba(255, 255, 255, 0.162);
+  /*header*/
+  --header-background: #fff;
+  --header-primary: #161616;
+  --header-secondary: rgba(22, 22, 22, 0.8);
+  /*screen-page*/
+  --board-secondary: rgba(22, 22, 22, 0.7);
+  --board-accent: #5255bc;
+  /*pop-up & modal*/
+  --popup-primary-background: #fcfcfc;
+  --popup-border: #ecedfd;
+  --popup-item-color: #161616;
+  --popup-accent-color: #5255bc;
+  --modal-main: #161616;
+  --modal-button-create: #fff;
+  --modal-plus-icon: #161616;
+  --modal-button-hover: #7b7ede;
+  /*screen page*/
+  --screen-button-plus-stroke: #fff;
+  --screen-button-plus-background: #5255bc;
+}
+
+.light body,
+.dark body,
+.violet body {
+  transition: all 0.7s ease;
+}

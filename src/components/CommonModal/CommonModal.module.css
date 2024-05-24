@@ -1,0 +1,82 @@
+.background {
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(21, 21, 21, 0.3);
+}
+
+.modalPageBox {
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+
+  background-color: var(--popup-primary-background);
+  color: var(--primary-color-black);
+  width: 335px;
+  padding: 24px;
+  border-radius: 8px;
+  border: 1px solid var(--popup-border);
+  box-shadow: 0 4px 16px 0 rgba(22, 22, 22, 0.05);
+}
+
+@media only screen and (min-width: 768px) {
+  .modalPageBox {
+    width: 350px;
+  }
+}
+
+.closeButton {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  width: 18px;
+  height: 18px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
+
+.closeIcon {
+  stroke-width: 1.5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  fill: none;
+  stroke: var(--modal-main);
+
+  transition: stroke 0.25s ease-in-out;
+}
+
+.closeIcon:hover,
+.closeIcon:focus {
+  stroke: var(--modal-button-hover);
+}
+
+h2 {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: -0.02em;
+  margin-bottom: 24px;
+  color: var(--modal-main);
+}
+
+@media only screen and (min-width: 1440px) {
+}
+
+.errorText {
+  color: red;
+}

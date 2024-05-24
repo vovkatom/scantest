@@ -1,0 +1,96 @@
+.profileForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+
+  margin: 0;
+}
+
+.avatarBox {
+  position: relative;
+  width: 68px;
+  height: 79px;
+  /* fill: var(--color-violet-background); */
+}
+
+.avatarImage {
+  width: 68px;
+  height: 68px;
+  border-radius: 8px;
+}
+
+.buttonIconProfile {
+  position: absolute;
+  bottom: 0;
+  left: 22px;
+
+  display: flex;
+  width: 24px;
+  height: 24px;
+  border-radius: 6px;
+  align-items: center;
+  justify-content: center;
+
+  cursor: pointer;
+  background-color: var(--popup-border);
+  transition: background-color 0.25s ease-in-out;
+}
+
+.buttonIconProfile:hover,
+.buttonIconProfile:focus {
+  background-color: var(--sidebar-plus-hover);
+}
+
+.plusIcon {
+  stroke: var(--modal-plus-icon);
+  fill: none;
+  border: none;
+  cursor: pointer;
+}
+
+.inputClassName {
+  font-family: inherit;
+  width: 100%;
+  height: 49px;
+  border: 1px solid var(--popup-accent-color);
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 18px;
+  padding-right: 18px;
+  border-radius: 8px;
+  box-shadow: 0 4px 16px 0 rgba(22, 22, 22, 0.08);
+  opacity: 0.4;
+  color: var(--modal-main);
+  font-weight: 400;
+  font-size: 14;
+
+  transition: opacity 0.25s ease-in-out;
+}
+
+.inputClassName:hover,
+.inputClassName:focus {
+  opacity: 1;
+}
+
+.buttonSend {
+  width: 100%;
+  height: 49px;
+  border: none;
+  border-radius: 8px;
+  background-color: var(--popup-accent-color);
+  color: var(--modal-button-create);
+
+  transition: background-color 0.25s ease-in-out;
+}
+
+.buttonSend:hover,
+.buttonSend:focus {
+  background-color: var(--modal-button-hover);
+}
+
+@media only screen and (min-width: 768px) {
+  .authControl {
+    width: 352px;
+  }
+}

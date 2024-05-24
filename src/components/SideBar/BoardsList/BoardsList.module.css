@@ -1,0 +1,48 @@
+button {
+  border: none;
+  background-color: transparent;
+}
+
+.buttonsMainContainer {
+  max-height: 242px;
+  overflow: auto;
+}
+
+@media only screen and (min-width: 768px) {
+  .buttonsMainContainer {
+    max-height: 420px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .buttonsMainContainer {
+    max-height: 166px;
+  }
+}
+
+.boardButtonsList {
+  /* max-height: 242px; */
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  overflow: auto;
+  /* border-radius: 5px; */
+}
+
+.boardButtonsList::-webkit-scrollbar {
+  width: 10px; /* Для WebKit (Chrome, Safari) */
+}
+
+.boardButtonsList::-moz-scrollbar {
+  width: 10px; /* Для Mozilla Firefox */
+}
+
+.boardButtonsList::-ms-scrollbar {
+  width: 10px; /* Для Internet Explorer та Edge */
+}
+
+/* Якщо потрібно визначити ширину скрола для всіх браузерів, використовуйте цю властивість */
+.boardButtonsList {
+  scrollbar-width: thin; /* Загальний синтаксис */
+  scrollbar-width: 10px; /* Конкретне значення ширини */
+}

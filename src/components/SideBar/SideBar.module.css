@@ -1,0 +1,74 @@
+.background {
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(21, 21, 21, 0.3);
+}
+
+.noBackground {
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+
+  width: 225px;
+  height: 100vh;
+}
+
+.container {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  width: 225px;
+  padding: 14px;
+  background-color: var(--sidebar-background);
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@media only screen and (min-width: 768px) {
+  .container {
+    width: 260px;
+    padding: 24px;
+  }
+}
+
+.upperPart {
+  max-height: 480px;
+}
+
+@media only screen and (min-width: 768px) {
+  .upperPart {
+    max-height: 648px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .upperPart {
+    max-height: 394px;
+  }
+}
+
+.myBoardsTitle {
+  color: var(--secondary-sidebar-text-color);
+  font-weight: 400;
+  font-size: 12px;
+  margin-bottom: 8px;
+}
+
+.bottomPart {
+  height: 294px;
+}
+
+@media only screen and (min-width: 768px) {
+  .bottomPart {
+    height: 328px;
+  }
+}
