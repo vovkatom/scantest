@@ -6,7 +6,7 @@ const GoogleButton = () => {
     <>
       <a
         className={css.googleBtn}
-        href="https://perfect-task-back.onrender.com/api/users/google"
+        href="https://scanbarcode-back.onrender.com/api/users/google"
         aria-label="Registration by using Google"
       >
         <Icon id="google" className={css.googleIcon} width="20" height="20" />
